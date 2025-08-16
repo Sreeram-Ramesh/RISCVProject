@@ -14,7 +14,7 @@
 !**/constraints/**/*.xdc
 # Don\'t ignore the synthesis files 
 !**/.srcs/sources_1/**/*.sv
-!**/.srcs/sources_1/**/*.v
+!**/**.srcs/sources_1/**/*.v
 !**/.srcs/sources_1/**/*.vh
 !**/.srcs/sources_1/**/*.vhd
 !**/.srcs/sources_1/**/*.vhdl
