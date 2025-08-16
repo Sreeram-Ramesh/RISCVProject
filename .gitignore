@@ -13,11 +13,11 @@
 # Don\'t ignore the constraint files
 !**/constraints/**/*.xdc
 # Don\'t ignore the synthesis files 
-!**/.srcs/sources_1/**/*.sv
+!**/**.srcs/sources_1/**/*.sv
 !**/**.srcs/sources_1/**/*.v
-!**/.srcs/sources_1/**/*.vh
-!**/.srcs/sources_1/**/*.vhd
-!**/.srcs/sources_1/**/*.vhdl
+!**/**.srcs/sources_1/**/*.vh
+!**/**.srcs/sources_1/**/*.vhd
+!**/**.srcs/sources_1/**/*.vhdl
 # Don\'t ignore the HLS source and testbench files
 !**/hsl/*/sources/*.cpp
 !**/hsl/*/sources/*.hpp
@@ -33,13 +33,15 @@
 # Don\'t ignore the project files
 !**/project/*.xpr
 # Don\'t ignore the testbench files
-!**/.srcs/sim_1/**/*.sv
-!**/.srcs/sim_1/**/*.v
-!**/.srcs/sim_1/**/*.vh
-!**/.srcs/sim_1/**/*.vhd
-!**/.srcs/sim_1/**/*.vhdl
-!**/.srcs/sim_1/**/*.wav
-# Don\'t ignore the simulation files
+!**/**.srcs/sim_1/**/*.sv
+!**/**.srcs/sim_1/**/*.v
+!**/**.srcs/sim_1/**/*.vh
+!**/**.srcs/sim_1/**/*.vhd
+!**/**.srcs/sim_1/**/*.vhdl
+!**/**.srcs/sim_1/**/*.wav
+# Don\'t ignore the waveform files
 !**/**.wcfg
+# Don\'t ignore the hex files
+!**/**.sim_1/**/*.hex
 # Don\'t ignore this file
 !.gitignore
