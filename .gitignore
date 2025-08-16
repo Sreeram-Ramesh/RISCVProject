@@ -1,0 +1,41 @@
+# Ignore everything
+*
+# Allow whitelisting subdirectories
+!*/
+# Don\'t ignore the block design and block design hdl wrapper files
+!/bd/*/*.bd
+!/bd/*/hdl/*.sv
+!/bd/*/hdl/*.v
+!/bd/*/hdl/*.vhd
+!/bd/*/hdl/*.vhdl
+# Don\'t ignore the constraint files
+!/constraints/**/*.xdc
+# Don\'t ignore the synthesis files 
+!/hdl/**/*.sv
+!/hdl/**/*.v
+!/hdl/**/*.vh
+!/hdl/**/*.vhd
+!/hdl/**/*.vhdl
+# Don\'t ignore the HLS source and testbench files
+!/hsl/*/sources/*.cpp
+!/hsl/*/sources/*.hpp
+!/hsl/*/testbench/*.cpp
+# Don\'t ignore the IP defintion files
+!/ip/*/*.xci
+# Don\'t ignore the HLS IP defintion files
+!/ip/hls_ip/**
+# Don\'t ignore the output files
+!/output/**/*.bit
+!/output/**/*.xsa
+!/output/**/*.dcp
+# Don\'t ignore the project files
+!/project/*.xpr
+# Don\'t ignore the simulation files 
+!/sim/**/*.sv
+!/sim/**/*.v
+!/sim/**/*.vh
+!/sim/**/*.vhd
+!/sim/**/*.vhdl
+!/sim/**/*.wav
+# Don\'t ignore this file
+!.gitignore
