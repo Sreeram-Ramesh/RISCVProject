@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="riscv32i_cpu_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="riscv32i_cpu_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="1,705.001 ns"></ZoomEndTime>
+      <Cursor1Time time="1,704.997 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="341"></NameColumnWidth>
+      <ValueColumnWidth column_width="193"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="59" />
+   <wvobject type="logic" fp_name="/riscv32i_cpu_tb/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/riscv32i_cpu_tb/reset">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/riscv32i_cpu_tb/Ext_MemWrite">
+      <obj_property name="ElementShortName">Ext_MemWrite</obj_property>
+      <obj_property name="ObjectShortName">Ext_MemWrite</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv32i_cpu_tb/Ext_WriteData">
+      <obj_property name="ElementShortName">Ext_WriteData[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Ext_WriteData[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv32i_cpu_tb/Ext_DataAdr">
+      <obj_property name="ElementShortName">Ext_DataAdr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Ext_DataAdr[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv32i_cpu_tb/WriteData">
+      <obj_property name="ElementShortName">WriteData[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WriteData[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv32i_cpu_tb/DataAdr">
+      <obj_property name="ElementShortName">DataAdr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DataAdr[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv32i_cpu_tb/ReadData">
+      <obj_property name="ElementShortName">ReadData[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ReadData[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/riscv32i_cpu_tb/MemWrite">
+      <obj_property name="ElementShortName">MemWrite</obj_property>
+      <obj_property name="ObjectShortName">MemWrite</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv32i_cpu_tb/PC">
+      <obj_property name="ElementShortName">PC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv32i_cpu_tb/Result">
+      <obj_property name="ElementShortName">Result[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Result[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv32i_cpu_tb/fault_instrs">
+      <obj_property name="ElementShortName">fault_instrs[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fault_instrs[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv32i_cpu_tb/i">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv32i_cpu_tb/fw">
+      <obj_property name="ElementShortName">fw[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fw[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv32i_cpu_tb/flag">
+      <obj_property name="ElementShortName">flag[31:0]</obj_property>
+      <obj_property name="ObjectShortName">flag[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv32i_cpu_tb/ADDI_x0">
+      <obj_property name="ElementShortName">ADDI_x0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ADDI_x0[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv32i_cpu_tb/ADDI">
+      <obj_property name="ElementShortName">ADDI[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ADDI[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv32i_cpu_tb/SLLI">
+      <obj_property name="ElementShortName">SLLI[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SLLI[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv32i_cpu_tb/SLTI">
+      <obj_property name="ElementShortName">SLTI[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SLTI[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv32i_cpu_tb/SLTIU">
+      <obj_property name="ElementShortName">SLTIU[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SLTIU[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv32i_cpu_tb/XORI">
+      <obj_property name="ElementShortName">XORI[31:0]</obj_property>
+      <obj_property name="ObjectShortName">XORI[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv32i_cpu_tb/SRLI">
+      <obj_property name="ElementShortName">SRLI[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SRLI[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv32i_cpu_tb/SRAI">
+      <obj_property name="ElementShortName">SRAI[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SRAI[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv32i_cpu_tb/ORI">
+      <obj_property name="ElementShortName">ORI[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ORI[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv32i_cpu_tb/ANDI">
+      <obj_property name="ElementShortName">ANDI[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ANDI[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv32i_cpu_tb/ADD">
+      <obj_property name="ElementShortName">ADD[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ADD[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv32i_cpu_tb/SUB">
+      <obj_property name="ElementShortName">SUB[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SUB[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv32i_cpu_tb/SLL">
+      <obj_property name="ElementShortName">SLL[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SLL[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv32i_cpu_tb/SLT">
+      <obj_property name="ElementShortName">SLT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SLT[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv32i_cpu_tb/SLTU">
+      <obj_property name="ElementShortName">SLTU[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SLTU[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv32i_cpu_tb/XOR">
+      <obj_property name="ElementShortName">XOR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">XOR[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv32i_cpu_tb/SRL">
+      <obj_property name="ElementShortName">SRL[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SRL[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv32i_cpu_tb/SRA">
+      <obj_property name="ElementShortName">SRA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SRA[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv32i_cpu_tb/OR">
+      <obj_property name="ElementShortName">OR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">OR[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv32i_cpu_tb/AND">
+      <obj_property name="ElementShortName">AND[31:0]</obj_property>
+      <obj_property name="ObjectShortName">AND[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv32i_cpu_tb/LUI">
+      <obj_property name="ElementShortName">LUI[31:0]</obj_property>
+      <obj_property name="ObjectShortName">LUI[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv32i_cpu_tb/AUIPC">
+      <obj_property name="ElementShortName">AUIPC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">AUIPC[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv32i_cpu_tb/SB">
+      <obj_property name="ElementShortName">SB[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SB[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv32i_cpu_tb/SH">
+      <obj_property name="ElementShortName">SH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SH[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv32i_cpu_tb/SW">
+      <obj_property name="ElementShortName">SW[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SW[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv32i_cpu_tb/LB">
+      <obj_property name="ElementShortName">LB[31:0]</obj_property>
+      <obj_property name="ObjectShortName">LB[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv32i_cpu_tb/LH">
+      <obj_property name="ElementShortName">LH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">LH[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv32i_cpu_tb/LW">
+      <obj_property name="ElementShortName">LW[31:0]</obj_property>
+      <obj_property name="ObjectShortName">LW[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv32i_cpu_tb/LBU">
+      <obj_property name="ElementShortName">LBU[31:0]</obj_property>
+      <obj_property name="ObjectShortName">LBU[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv32i_cpu_tb/LHU">
+      <obj_property name="ElementShortName">LHU[31:0]</obj_property>
+      <obj_property name="ObjectShortName">LHU[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv32i_cpu_tb/BLT_IN">
+      <obj_property name="ElementShortName">BLT_IN[31:0]</obj_property>
+      <obj_property name="ObjectShortName">BLT_IN[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv32i_cpu_tb/BLT_OUT">
+      <obj_property name="ElementShortName">BLT_OUT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">BLT_OUT[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv32i_cpu_tb/BGE_IN">
+      <obj_property name="ElementShortName">BGE_IN[31:0]</obj_property>
+      <obj_property name="ObjectShortName">BGE_IN[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv32i_cpu_tb/BGE_OUT">
+      <obj_property name="ElementShortName">BGE_OUT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">BGE_OUT[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv32i_cpu_tb/BLTU_IN">
+      <obj_property name="ElementShortName">BLTU_IN[31:0]</obj_property>
+      <obj_property name="ObjectShortName">BLTU_IN[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv32i_cpu_tb/BLTU_OUT">
+      <obj_property name="ElementShortName">BLTU_OUT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">BLTU_OUT[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv32i_cpu_tb/BGEU_IN">
+      <obj_property name="ElementShortName">BGEU_IN[31:0]</obj_property>
+      <obj_property name="ObjectShortName">BGEU_IN[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv32i_cpu_tb/BGEU_OUT">
+      <obj_property name="ElementShortName">BGEU_OUT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">BGEU_OUT[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv32i_cpu_tb/BNE_IN">
+      <obj_property name="ElementShortName">BNE_IN[31:0]</obj_property>
+      <obj_property name="ObjectShortName">BNE_IN[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv32i_cpu_tb/BNE_OUT">
+      <obj_property name="ElementShortName">BNE_OUT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">BNE_OUT[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv32i_cpu_tb/BEQ_IN">
+      <obj_property name="ElementShortName">BEQ_IN[31:0]</obj_property>
+      <obj_property name="ObjectShortName">BEQ_IN[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv32i_cpu_tb/BEQ_OUT">
+      <obj_property name="ElementShortName">BEQ_OUT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">BEQ_OUT[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv32i_cpu_tb/JALR">
+      <obj_property name="ElementShortName">JALR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">JALR[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv32i_cpu_tb/JAL">
+      <obj_property name="ElementShortName">JAL[31:0]</obj_property>
+      <obj_property name="ObjectShortName">JAL[31:0]</obj_property>
+   </wvobject>
+</wave_config>
