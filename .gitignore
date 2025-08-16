@@ -2,6 +2,8 @@
 *
 # Allow whitelisting subdirectories
 !*/
+# Don\'t ignore the README.md file
+!README.md
 # Don\'t ignore the block design and block design hdl wrapper files
 !/bd/*/*.bd
 !/bd/*/hdl/*.sv
