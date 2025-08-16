@@ -1,0 +1,169 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:36:09 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Sat Aug 16 20:42:35 2025
+# Process ID: 92671
+# Current directory: /home/riscv
+# Command line: vivado -log /home/riscv/Documents/RISCVProj/RV32ISingleCycleProcessor/vivado.log -journal /home/riscv/Documents/RISCVProj/RV32ISingleCycleProcessor/vivado.jou
+# Log file: /home/riscv/Documents/RISCVProj/RV32ISingleCycleProcessor/vivado.log
+# Journal file: /home/riscv/Documents/RISCVProj/RV32ISingleCycleProcessor/vivado.jou
+# Running On        :riscv-Zenbook-UX3404VA-Q420VA
+# Platform          :Ubuntu
+# Operating System  :Ubuntu 22.04.5 LTS
+# Processor Detail  :13th Gen Intel(R) Core(TM) i7-13700H
+# CPU Frequency     :2697.029 MHz
+# CPU Physical cores:14
+# CPU Logical cores :20
+# Host memory       :16367 MB
+# Swap memory       :2147 MB
+# Total Virtual     :18515 MB
+# Available Virtual :13635 MB
+#-----------------------------------------------------------
+start_gui
+open_project /home/riscv/Documents/RISCVProj/RV32ISingleCycleProcessor/RV32ISingleCycleProcessor.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory '/home/riscv/Documents/RISCVProj/RV32ISingleCycleProcessor/RV32ISingleCycleProcessor.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2024.1/data/ip'.
+open_project: Time (s): cpu = 00:00:23 ; elapsed = 00:00:11 . Memory (MB): peak = 7944.082 ; gain = 325.367 ; free physical = 721 ; free virtual = 11879
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'riscv32i_cpu_tb'
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/riscv/Documents/RISCVProj/RV32ISingleCycleProcessor/RV32ISingleCycleProcessor.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from '/tools/Xilinx/Vivado/2024.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'riscv32i_cpu_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/riscv/Documents/RISCVProj/RV32ISingleCycleProcessor/RV32ISingleCycleProcessor.sim/sim_1/behav/xsim'
+xvlog --incr --relax -prj riscv32i_cpu_tb_vlog.prj
+Waiting for jobs to finish...
+No pending jobs, compilation finished.
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/riscv/Documents/RISCVProj/RV32ISingleCycleProcessor/RV32ISingleCycleProcessor.sim/sim_1/behav/xsim'
+xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot riscv32i_cpu_tb_behav xil_defaultlib.riscv32i_cpu_tb xil_defaultlib.glbl -log elaborate.log
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: /tools/Xilinx/Vivado/2024.1/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot riscv32i_cpu_tb_behav xil_defaultlib.riscv32i_cpu_tb xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/home/riscv/Documents/RISCVProj/RV32ISingleCycleProcessor/RV32ISingleCycleProcessor.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "riscv32i_cpu_tb_behav -key {Behavioral:sim_1:Functional:riscv32i_cpu_tb} -tclbatch {riscv32i_cpu_tb.tcl} -view {/home/riscv/Documents/RISCVProj/RV32ISingleCycleProcessor/riscv32i_base_ext.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+open_wave_config /home/riscv/Documents/RISCVProj/RV32ISingleCycleProcessor/riscv32i_base_ext.wcfg
+source riscv32i_cpu_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 20ms
+1. addi implementation is correct for x0 
+2. addi implementation is correct 
+3. slli implementation is correct 
+4. slti implementation is correct 
+5. sltiu implementation is correct 
+6. xori implementation is correct 
+7. srli implementation is correct 
+8. srai implementation is correct 
+9. ori implementation is correct 
+10. andi implementation is correct
+11. add implementation is correct 
+12. sub implementation is correct 
+13. sll implementation is correct 
+14. slt implementation is correct 
+15. sltu implementation is correct 
+16. xor implementation is correct 
+17. srl implementation is correct 
+18. sra implementation is correct 
+19. or implementation is correct 
+20. and implementation is correct 
+21. lui implementation is correct 
+22. auipc implementation is correct 
+23. sb implementation is correct
+24. sh implementation is correct
+25. sw implementation is correct
+26. lb implementation is correct
+27. lh implementation is correct
+28. lw implementation is correct
+29. lbu implementation is correct
+30. lhu implementation is correct
+31. blt is executing
+31. blt is executing
+31. blt is executing
+31. blt is executing
+31. blt is executing
+31. blt is executing
+31. blt is executing
+31. blt is executing
+31. blt is executing
+31. blt is executing
+31. blt implementation is correct 
+32. bge is executing
+32. bge is executing
+32. bge is executing
+32. bge is executing
+32. bge is executing
+32. bge is executing
+32. bge is executing
+32. bge is executing
+32. bge is executing
+32. bge is executing
+32. bge is executing
+32. bge implementation is correct
+33. bltu is executing
+33. bltu is executing
+33. bltu is executing
+33. bltu is executing
+33. bltu implementation is correct 
+34. bgeu is executing
+34. bgeu is executing
+34. bgeu is executing
+34. bgeu is executing
+34. bgeu is executing
+34. bgeu implementation is correct 
+35. bne is executing
+35. bne is executing
+35. bne is executing
+35. bne is executing
+35. bne is executing
+35. bne implementation is correct 
+36. beq is executing
+36. beq is executing
+36. beq implementation is correct 
+37. jalr implementation is correct 
+38. jal implementation is correct 
+Faulty Instructions =>           0
+No errors encountered, congratulations!
+$stop called at time : 1705 ns : File "/home/riscv/Documents/RISCVProj/RV32ISingleCycleProcessor/RV32ISingleCycleProcessor.srcs/sim_1/new/riscv32i_cpu_tb.v" Line 534
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'riscv32i_cpu_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 20ms
+launch_simulation: Time (s): cpu = 00:00:12 ; elapsed = 00:00:08 . Memory (MB): peak = 8159.117 ; gain = 95.301 ; free physical = 774 ; free virtual = 11917

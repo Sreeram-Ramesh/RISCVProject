@@ -31,7 +31,10 @@
 !**/output/**/*.xsa
 !**/output/**/*.dcp
 # Don\'t ignore the project files
-!**/project/*.xpr
+!**/*.xpr
+# Don\'t ignore the log and journal files
+!**/*.log
+!**/*.jou
 # Don\'t ignore the testbench files
 !**/**.srcs/sim_1/**/*.sv
 !**/**.srcs/sim_1/**/*.v
@@ -42,6 +45,6 @@
 # Don\'t ignore the waveform files
 !**/**.wcfg
 # Don\'t ignore the hex files
-!**/**.sim_1/**/*.hex
+!**/**.sim_1/**/**/*.hex
 # Don\'t ignore this file
 !.gitignore
