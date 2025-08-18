@@ -1,20 +1,19 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
+// Designer: Sreeram R 
 // 
 // Create Date: 08/16/2025 05:58:40 PM
-// Design Name: 
+// Design Name: Vanilla RV32I
 // Module Name: riscv32i_cpu
 // Project Name: 
-// Target Devices: 
+// Target Devices: Zynq 7000
 // Tool Versions: 
 // Description: 
 // 
-// Dependencies: 
+// Dependencies: A hex file with instructions to be loaded into the instruction
+//               memory.
 // 
-// Revision:
-// Revision 0.01 - File Created
+// Revision: v01
 // Additional Comments:
 // 
 //////////////////////////////////////////////////////////////////////////////////
