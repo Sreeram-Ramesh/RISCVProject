@@ -7,7 +7,7 @@
 
 module reg_file #(parameter DATA_WIDTH = 32) (
     input       clk,
-    input       wr_en,
+    input       wr_en, stall_en,
     input       [4:0] rd_addr1, rd_addr2, wr_addr,
     input       [DATA_WIDTH-1:0] wr_data,
     output      [DATA_WIDTH-1:0] rd_data1, rd_data2
@@ -24,7 +24,7 @@ end
 
 // register file write logic (synchronous)
 always @(posedge clk) begin
-    if (wr_en) reg_file_arr[wr_addr] <= wr_data;
+    if (wr_en && !stall_en) reg_file_arr[wr_addr] <= wr_data;
 end
 
 // register file read logic (combinational)

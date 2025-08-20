@@ -1,0 +1,65 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:36:09 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Mon Aug 18 12:42:13 2025
+# Process ID: 4131
+# Current directory: /home/riscv/Documents/RISCVProj/RV32ISingleCycleProcessor
+# Command line: vivado -log ./vivado.log -journal ./vivado.jou
+# Log file: /home/riscv/Documents/RISCVProj/RV32ISingleCycleProcessor/./vivado.log
+# Journal file: /home/riscv/Documents/RISCVProj/RV32ISingleCycleProcessor/./vivado.jou
+# Running On        :riscv-Zenbook-UX3404VA-Q420VA
+# Platform          :Ubuntu
+# Operating System  :Ubuntu 22.04.5 LTS
+# Processor Detail  :13th Gen Intel(R) Core(TM) i7-13700H
+# CPU Frequency     :443.325 MHz
+# CPU Physical cores:14
+# CPU Logical cores :20
+# Host memory       :16367 MB
+# Swap memory       :2147 MB
+# Total Virtual     :18515 MB
+# Available Virtual :15510 MB
+#-----------------------------------------------------------
+start_gui
+open_project /home/riscv/Documents/RISCVProj/RV32ISingleCycleProcessor/RV32ISingleCycleProcessor.xpr
+update_compile_order -fileset sources_1
+close_project
+open_project /home/riscv/Documents/RISCVProj/RV32ISingleCycleProcessor/RV32ISingleCycleProcessor.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config /home/riscv/Documents/RISCVProj/RV32ISingleCycleProcessor/riscv32i_base_ext.wcfg
+source riscv32i_cpu_tb.tcl
+current_wave_config {riscv32i_base_ext.wcfg}
+add_wave {{/riscv32i_cpu_tb/Stall}} 
+restart
+run all
+close_sim
+launch_simulation
+open_wave_config /home/riscv/Documents/RISCVProj/RV32ISingleCycleProcessor/riscv32i_base_ext.wcfg
+source riscv32i_cpu_tb.tcl
+current_wave_config {riscv32i_base_ext.wcfg}
+add_wave {{/riscv32i_cpu_tb/Stall}} 
+restart
+run all
+save_wave_config {/home/riscv/Documents/RISCVProj/RV32ISingleCycleProcessor/riscv32i_base_ext.wcfg}
+close_sim
+launch_simulation
+open_wave_config /home/riscv/Documents/RISCVProj/RV32ISingleCycleProcessor/riscv32i_base_ext.wcfg
+source riscv32i_cpu_tb.tcl
+close_sim
+launch_simulation
+open_wave_config /home/riscv/Documents/RISCVProj/RV32ISingleCycleProcessor/riscv32i_base_ext.wcfg
+source riscv32i_cpu_tb.tcl
+close_sim
+launch_simulation
+open_wave_config /home/riscv/Documents/RISCVProj/RV32ISingleCycleProcessor/riscv32i_base_ext.wcfg
+source riscv32i_cpu_tb.tcl
+close_sim
+launch_simulation
+open_wave_config /home/riscv/Documents/RISCVProj/RV32ISingleCycleProcessor/riscv32i_base_ext.wcfg
+source riscv32i_cpu_tb.tcl
+close_sim
+launch_simulation
+source riscv32i_cpu_tb.tcl
+close_sim

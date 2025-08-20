@@ -3,6 +3,7 @@
 // datapath.v
 module datapath (
     input         clk, reset,
+    input         Stall,
     input [1:0]   ResultSrc,
     input         PCSrc, ALUSrc,
     input         RegWrite,
@@ -21,14 +22,14 @@ wire [31:0] PCNext, PCPlus4, PCTarget, AuiPC, UIResult, JalrNext;
 wire [31:0] ImmExt, SrcA, SrcB, WriteData, ALUResult;
 
 // next PC logic
-reset_ff #(32) pcreg(clk, reset, PCNext, PC);
+reset_ff #(32) pcreg(clk, reset, Stall, PCNext, PC);
 adder          pcadd4(PC, 32'd4, PCPlus4);
 adder          pcaddbranch(PC, ImmExt, PCTarget);
 mux2 #(32)     pcmux(PCPlus4, PCTarget, PCSrc, JalrNext);
 mux2 #(32)     jalrmux(JalrNext, ALUResult, Jalr, PCNext);
 
 // register file logic
-reg_file       rf (clk, RegWrite, Instr[19:15], Instr[24:20], Instr[11:7], Result, SrcA, WriteData);
+reg_file       rf (clk, RegWrite, Stall, Instr[19:15], Instr[24:20], Instr[11:7], Result, SrcA, WriteData);
 imm_extend     ext (Instr[31:7], ImmSrc, ImmExt);
 
 // ALU logic

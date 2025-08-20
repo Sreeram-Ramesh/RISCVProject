@@ -22,6 +22,7 @@
 
 module riscv_cpu (
     input         clk, reset,
+    input         Stall,
     output [31:0] PC,
     input  [31:0] Instr,
     output        MemWrite,
@@ -38,7 +39,7 @@ controller  c   (Instr[6:0], Instr[14:12], Instr[30], Zero, ALUR31, Overflow,
                 ResultSrc, MemWrite, PCSrc, ALUSrc, RegWrite, Jump, Jalr,
                 ImmSrc, ALUControl);
 
-datapath    dp  (clk, reset, ResultSrc, PCSrc,
+datapath    dp  (clk, reset, Stall, ResultSrc, PCSrc,
                 ALUSrc, RegWrite, ImmSrc, ALUControl, Jalr,
                 Zero, ALUR31, Overflow, PC, Instr, Mem_WrAddr, Mem_WrData, ReadData, Result);
 
